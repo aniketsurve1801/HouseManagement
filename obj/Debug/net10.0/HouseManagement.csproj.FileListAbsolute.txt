@@ -7,6 +7,10 @@
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/HouseManagement.runtimeconfig.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/HouseManagement.dll
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/HouseManagement.pdb
+/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/Microsoft.Extensions.AI.Abstractions.dll
+/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/ModelContextProtocol.dll
+/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/ModelContextProtocol.Core.dll
+/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.csproj.AssemblyReference.cache
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/rpswa.dswa.cache.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.GeneratedMSBuildEditorConfig.editorconfig
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.AssemblyInfoInputs.cache
@@ -15,6 +19,7 @@
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.MvcApplicationPartsAssemblyInfo.cache
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.RazorAssemblyInfo.cache
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.RazorAssemblyInfo.cs
+/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.sourcelink.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
@@ -90,14 +95,9 @@
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/staticwebassets.development.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/staticwebassets.build.endpoints.json
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/swae.build.ex.cache
+/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseMan.ADD6734F.Up2Date
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.dll
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/refint/HouseManagement.dll
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.pdb
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.genruntimeconfig.cache
 /Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/ref/HouseManagement.dll
-/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.sourcelink.json
-/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/Microsoft.Extensions.AI.Abstractions.dll
-/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/ModelContextProtocol.dll
-/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/bin/Debug/net10.0/ModelContextProtocol.Core.dll
-/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseManagement.csproj.AssemblyReference.cache
-/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/obj/Debug/net10.0/HouseMan.ADD6734F.Up2Date
