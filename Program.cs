@@ -1,3 +1,26 @@
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using ModelContextProtocol.Server;
+using System.ComponentModel;
+
+
+var builderMCP = Host.CreateApplicationBuilder(args);
+builderMCP.Logging.AddConsole(consoleLogOptions =>
+{
+    // Configure all logs to go to stderr
+    consoleLogOptions.LogToStandardErrorThreshold = LogLevel.Trace;
+});
+
+builderMCP.Services
+    .AddMcpServer()
+    .WithStdioServerTransport()
+    .WithToolsFromAssembly();
+
+await builderMCP.Build().RunAsync();
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -27,3 +50,15 @@ app.MapControllerRoute(
 
 
 app.Run();
+
+
+
+[McpServerToolType]
+public static class EchoTool
+{
+    [McpServerTool, Description("Echoes the message back to the Aniket.")]
+    public static string Echo(string message) => $"Hello from C#: {message}";
+
+    [McpServerTool, Description("Echoes in reverse the message sent by the Aniket.")]
+    public static string ReverseEcho(string message) => new string(message.Reverse().ToArray());
+}

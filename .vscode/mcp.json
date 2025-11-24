@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"my-mcp-server-b3d8ad6b": {
+			"type": "stdio",
+			"command": "dotnet",
+			"args": [
+				"run",
+                "--project",
+                "/Users/abc/Documents/Dotnet/HouseManagement/HouseManagement/HouseManagement.csproj"
+			]
+		}
+	},
+	"inputs": []
+}

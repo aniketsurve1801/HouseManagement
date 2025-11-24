@@ -7,8 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v10.0": {
       "HouseManagement/1.0.0": {
+        "dependencies": {
+          "ModelContextProtocol": "0.4.0-preview.3"
+        },
         "runtime": {
           "HouseManagement.dll": {}
+        }
+      },
+      "Microsoft.Extensions.AI.Abstractions/9.10.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "assemblyVersion": "9.10.0.0",
+            "fileVersion": "9.1000.25.51303"
+          }
+        }
+      },
+      "ModelContextProtocol/0.4.0-preview.3": {
+        "dependencies": {
+          "ModelContextProtocol.Core": "0.4.0-preview.3"
+        },
+        "runtime": {
+          "lib/net10.0/ModelContextProtocol.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
+        }
+      },
+      "ModelContextProtocol.Core/0.4.0-preview.3": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "9.10.0"
+        },
+        "runtime": {
+          "lib/net10.0/ModelContextProtocol.Core.dll": {
+            "assemblyVersion": "0.4.0.0",
+            "fileVersion": "0.4.0.0"
+          }
         }
       }
     }
@@ -18,6 +51,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.Extensions.AI.Abstractions/9.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBdh3TDNN+F28L2ZKOF1NfobJF3BbKWrpta+HI9dz8OcwIiIkFGvP8n1GNPO92upNQ9gofMX1O+MXtopW6tR1A==",
+      "path": "microsoft.extensions.ai.abstractions/9.10.0",
+      "hashPath": "microsoft.extensions.ai.abstractions.9.10.0.nupkg.sha512"
+    },
+    "ModelContextProtocol/0.4.0-preview.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iwUNEuzePz0+oYapLvi5HssEmyhWcUscfZLA0g2PDf220VZ89KXrdLhraxXtFWXe25OvkW/8eEJLZmvuK+Gmzw==",
+      "path": "modelcontextprotocol/0.4.0-preview.3",
+      "hashPath": "modelcontextprotocol.0.4.0-preview.3.nupkg.sha512"
+    },
+    "ModelContextProtocol.Core/0.4.0-preview.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r6/cThY2hDnBHB0qrZ195jw7Ks3vN5bi+uqgUa+19OS9E3+/L7OZ267dlrRmIDiBIwcQDqhpe3/p6BgsULkfug==",
+      "path": "modelcontextprotocol.core/0.4.0-preview.3",
+      "hashPath": "modelcontextprotocol.core.0.4.0-preview.3.nupkg.sha512"
     }
   }
 }
